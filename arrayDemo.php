@@ -28,6 +28,7 @@
         // Make sure inputs are not incalculable by listing fail cases.
         if ($numRows <= 0 || $numCols <= 0 || $minValue >= $maxValue) {
             echo "<p>Invalid input. Please go back and enter valid values.</p>";
+
         } else {
             // Create a randomized 2D array
             $dataArray = [];
@@ -115,6 +116,7 @@
         }
     ?>
 
+    <!-- link to return to form -->
     <a href="arrayDemo.html">Click here to return</a>
 
 </body>
